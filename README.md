@@ -23,7 +23,6 @@ sudo apt update && sudo apt install jq -y
 
  ```
 Usage
-
 Navigate to the respective folders and run the scripts:
 
  ```cd sqlinjector
@@ -34,4 +33,10 @@ cd ../xssinjector
    ```
  ``` Make sure the scripts are executable:
  
-chmod +x SQL.sh XSS.sh 
+chmod +x SQL.sh XSS.sh
+```
+-u → URL input
+
+-f → file input (list of URLs)
+
+-o → output log file
