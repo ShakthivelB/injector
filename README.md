@@ -25,16 +25,17 @@ sudo apt update && sudo apt install jq -y
 Usage
 Navigate to the respective folders and run the scripts:
 
- ```cd sqlinjector
+ ```
+cd sqlinjector
 ./SQL.sh
  
 cd ../xssinjector
 ./XSS.sh
    ```
- ``` Make sure the scripts are executable:
+  Make sure the scripts are executable:
  
 chmod +x SQL.sh XSS.sh
-
+```
 ./SQL.sh -u "http://testphp.vulnweb.com/listproducts.php?cat=0"
 
 ./XSS.sh -u "http://testphp.vulnweb.com/listproducts.php?cat=1"
