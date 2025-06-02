@@ -20,3 +20,17 @@ To install `jq` on Kali Linux:
 
 ```bash
 sudo apt update && sudo apt install jq -y
+
+```USAGE
+
+Navigate to the respective folders and run the scripts:
+
+cd sqlinjector
+./SQL.sh
+
+cd ../xssinjector
+./XSS.sh
+
+Make sure the scripts are executable:
+
+chmod +x SQL.sh XSS.sh
