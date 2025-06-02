@@ -1,5 +1,5 @@
 # Injector Tools
-
+ 
 This repository contains two Bash scripts for automated vulnerability injection testing:
 - **sqlinjector** — Script to inject SQLi payloads.
 - **xssinjector** — Script to inject XSS payloads.
