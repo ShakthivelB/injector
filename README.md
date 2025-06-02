@@ -34,6 +34,11 @@ cd ../xssinjector
  ``` Make sure the scripts are executable:
  
 chmod +x SQL.sh XSS.sh
+
+./SQL.sh -u "http://testphp.vulnweb.com/listproducts.php?cat=0"
+
+./XSS.sh -u "http://testphp.vulnweb.com/listproducts.php?cat=1"
+
 ```
 -u → URL input
 
